@@ -121,13 +121,39 @@ a {
 }
 
 /* Podcast */
-.podfeatured {
-  min-height: 470px;
-}
 .podthumb {
   max-height: 235px !important;
   overflow-y: hidden;
 }
 .podthumb h2 {
   font-size: 20px;
+}
+
+/* Footer */
+.footer-bg {
+  background-color: #000;
+}
+.newsletter {
+  border-bottom: 1px solid #333;
+}
+.newsletter p {
+  font-weight: 500;
+}
+.newsletter input {
+  background-color: transparent;
+  border: 1px solid #999999;
+}
+.newsletter input::placeholder {
+  color: #999999;
+}
+.newsletter i {
+  color: #999999;
+  left: 20px;
+}
+.newsletter button {
+  background-color: #f08f64;
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+  font-weight: 500;
 }
