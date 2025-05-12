@@ -1,0 +1,133 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #000;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+}
+
+.news-date,
+.news-cat,
+.podguest {
+  font-size: 12px;
+  color: #1a1a1a;
+}
+.date-line {
+  width: 14px;
+  height: 1px;
+  background-color: #1a1a1a;
+}
+
+/* Navbar */
+.hamburger {
+  width: 32px;
+  height: 32px;
+  background-color: #f08f64;
+}
+
+/* Featured News */
+.ft-title {
+  font-weight: 600;
+}
+.cat-badge {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.violate {
+  background-color: #6641ee;
+}
+
+/* Category*/
+.cat-box {
+  max-width: 220px !important;
+}
+.cat-name {
+  left: 50%;
+  bottom: -7px;
+  width: calc(100% - 22px);
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(2px);
+}
+
+/* Editor's pick */
+
+.editors-pick-title {
+  font-size: 28px;
+  font-weight: 500;
+}
+.sub-title {
+  font-size: 14px;
+  color: #333333;
+}
+
+/* Latest news */
+.latest-news {
+  background-color: #f08f64;
+}
+.section-title {
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.view-all-btn {
+  color: #000;
+}
+
+/* Technology */
+.text-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(171, 171, 171, 0) 0%,
+    rgba(0, 0, 0, 0.89) 90%
+  );
+}
+
+/* Ad campaign */
+.ad-content {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(2px);
+}
+
+.description h2 {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.btn {
+  background-color: #f08f64 !important;
+}
+
+/* Team */
+.name-designation {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(3px);
+}
+.name-designation h4 {
+  font-weight: 500;
+  font-size: 18px;
+}
+.name-designation h5 {
+  font-size: 14px;
+}
+
+/* Podcast */
+.podfeatured {
+  min-height: 470px;
+}
+.podthumb {
+  max-height: 235px !important;
+  overflow-y: hidden;
+}
+.podthumb h2 {
+  font-size: 20px;
+}
