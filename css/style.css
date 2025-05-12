@@ -3,6 +3,7 @@
   font-size: 14px;
   color: #000;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 ul {
   list-style: none;
@@ -156,4 +157,40 @@ a {
   outline: 0;
   font-size: 14px;
   font-weight: 500;
+}
+.footer-menu ul li a {
+  font-size: 14px;
+  color: #999999;
+  text-transform: capitalize;
+}
+.footer-menu ul li a:hover {
+  color: #fff;
+}
+.social span {
+  color: #d9d9d9;
+  font-size: 14px;
+}
+.social i {
+  color: #d9d9d9;
+}
+.social ul li {
+  border-bottom: 1px solid #333;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+.social .icon-box {
+  width: 30px;
+  height: 30px;
+  background-color: #2a2a2a;
+}
+.footer-rest {
+  border-top: 1px solid #333;
+}
+.footer-rest ul li a,
+.footer-rest span {
+  font-size: 14px;
+  color: #999999;
+}
+.footer-rest img {
+  border-right: 1px solid #333;
 }
